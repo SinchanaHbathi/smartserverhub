@@ -4,7 +4,7 @@ import { Link, useNavigate } from "react-router-dom";
 import "./Login.css";
 
 const API = (
-  import.meta.env.VITE_API_URL || "http://localhost:5000/api"
+  import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com"
 ).replace(/\/+$/, "");
 
 export default function Login() {
