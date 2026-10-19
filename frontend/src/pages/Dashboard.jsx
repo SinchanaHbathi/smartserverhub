@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 import "./Dashboard.css";
 
 const API_URL = (
-  import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com"
+  import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com/api"
 ).replace(/\/+$/, "");
 
 const navigationItems = [

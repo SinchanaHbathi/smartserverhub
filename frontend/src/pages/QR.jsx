@@ -4,7 +4,7 @@ import QRCode from "qrcode";
 import JSZip from "jszip";
 
 const API_URL = (
-  import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com"
+  import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com/api"
 ).replace(/\/+$/, "");
 
 function getToken() {

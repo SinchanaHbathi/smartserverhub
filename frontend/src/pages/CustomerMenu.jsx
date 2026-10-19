@@ -3,7 +3,7 @@ import { useCallback, useEffect, useMemo, useState } from "react";
 import "./CustomerMenu.css";
 
 const API_URL = (
-  import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com"
+  import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com/api"
 ).replace(/\/+$/, "");
 
 function money(value) {

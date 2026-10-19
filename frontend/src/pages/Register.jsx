@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 
-const API = import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com";
+const API = import.meta.env.VITE_API_URL || "https://smartserverhub.onrender.com/api";
 
 export default function Register() {
   const navigate = useNavigate();
